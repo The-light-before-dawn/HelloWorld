@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    # 应用名称 可选
+    name: HelloWorld
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://172.25.254.133:3306?useSSL=false&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+      username: root
+      password: root
+
+logging:
+  level:
+    com.itheima: debug
